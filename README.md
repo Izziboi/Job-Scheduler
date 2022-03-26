@@ -38,13 +38,23 @@ Users may please explore other functionalities on the app, as they are very easy
 
 ## Result
 <p align="justify">
-The result is a display of the output of the records fetched. Below is a tabular display shown at the lower part of the record viewer page.
+The result is a display of the output of the records fetched. Below is a tabular display presented at the lower part of the record viewer page.
   
 ![image](https://user-images.githubusercontent.com/44449730/160243748-168adc37-0b46-4ee0-80df-fcc4749c1884.png)
   
 As mentioned earlier, it can also deliver an email to a valid email address. Below is an email delivered by the app to a recipient.
   
 ![image](https://user-images.githubusercontent.com/44449730/160243992-6e9a9f0e-601c-4604-8a9b-baa1f401ffc5.png)
+</p>
 
+## Summary
+<p align="justify">
+The app can conveniently handle schedules as described above and also send mobile versions of them. With this, one can always organize their schedules for the day in a very simple manner.
+</p>
 
+## Improvement
+<p align="justify">
+The app has got some bugs as follows:
+- When a user is on a particular page and there clicks a button to go to another page, if the new page is closed and the button is clicke again, it will not open again. Unfortunately I forgot to take care of it at the earlier part of the work. The cause of this behaviour is that each page has its own Tkinter object. To resolve this behaviour, all the pages of the app are supposed to share only one Tkinter object. This I plan to do, but if anyone is earger to do that, they are welcome.
+- When the page size is adjusted, the elements on the page don't adjust dynamically. They remain the way they are, which is not very pleasant.
 </p>
