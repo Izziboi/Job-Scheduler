@@ -11,6 +11,11 @@ I once worked with a very nice dude who was a freelance gardener. He was very ar
 - email<br>
 - smtplib
 
+## Files and Folders in the Repository
+- **app_files folder:** This folder contains the program modules which are written in python. The login.py module is the first port of call.<br>
+- **data_files folder:** This folder contains the database files.<br>
+It is important to mention that all these files must exist in the same folder for the app to work, otherwise the path of the database files must be inserted where necessary in the program.
+
 ## About the App
 <p align="justify">
 The app has the following sections:<br>
