@@ -5,6 +5,12 @@
 I once worked with a very nice dude who was a freelance gardener. He was very articulate with record-keeping and this he achieved using a large notebook. He often checked the notebook to know his next job schedule and consequently plan for it. Information concerning his jobs included the name of his client, their address, phone number, date of job, etc. While this was a nice practice, it happened that there was a tiny challenge - checking the records while on transit. He had to struggle between driving and turning the pages of the notebook. When I observed this, I thought of the possibility of making these information available on the go - that is, on mobile devices. As a result, I decided to apply my knwledge of python to create an app that can address this challenge as much as possible. Hence this work.
 </p>
 
+## Packages Used in the Work
+- tkinter<br>
+- sqlite3<br>
+- email<br>
+- smtplib
+
 ## About the App
 <p align="justify">
 The app has the following sections:<br>
@@ -45,6 +51,11 @@ The result is a display of the output of the records fetched. Below is a tabular
 As mentioned earlier, it can also deliver an email to a valid email address. Below is an email delivered by the app to a recipient.
   
 ![image](https://user-images.githubusercontent.com/44449730/160243992-6e9a9f0e-601c-4604-8a9b-baa1f401ffc5.png)
+  
+Finally, it can deliver sms to a mobile phone as can be seen below.
+  
+![image](https://user-images.githubusercontent.com/44449730/160255118-ba673e27-08fc-4bc0-940a-471106fe7e1e.png)
+
 </p>
 
 ## Summary
