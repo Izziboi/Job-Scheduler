@@ -74,5 +74,6 @@ The app can conveniently handle schedules as described above and also send mobil
 <p align="justify">
 The app has got some bugs as follows:
 - When a user is on a particular page and there clicks a button to go to another page, if the new page is closed and the button is clicke again, it will not open again. Unfortunately I forgot to take care of it at the earlier part of the work. The cause of this behaviour is that each page has its own Tkinter object. To resolve this behaviour, all the pages of the app are supposed to share only one Tkinter object. This I plan to do, but if anyone is earger to do that, they are welcome.
-- When the page size is adjusted, the elements on the page don't adjust dynamically. They remain the way they are, which is not very pleasant.
+- When the page size is shrinked, the elements on the page don't adjust dynamically. They remain the way they are, which is not very pleasant.<br>
+For the blog post version of this work and others, please visit https://medium.com/@israeletu/job-scheduler-app-with-python-tkinter-fa20b6a8f691.
 </p>
