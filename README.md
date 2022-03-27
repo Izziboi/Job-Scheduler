@@ -19,7 +19,8 @@ It is important to mention that all these files must exist in the same folder fo
 
 ## About the App
 <p align="justify">
-The app has the following sections:<br>
+The app has the following sections:
+  
 - The Login: This is the first port of call where a user enters their login details (please see below). If the correct details are logged in, the app opens the section for viewing the schedules.
   
 ![image](https://user-images.githubusercontent.com/44449730/160242100-46f70058-5c1e-415a-9ccc-75d94df38099.png)
